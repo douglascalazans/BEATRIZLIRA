@@ -137,12 +137,41 @@
                     <!-- LOGO ADICIONADA -->
                     <img src="https://i.imgur.com/xkbXLug.png" alt="Logo Insta Criativo Pack" class="w-56 mx-auto mb-8">
 
-                    <h1 class="text-4xl md:text-5xl lg:text-6xl font-extrabold text-text-dark leading-tight">
-                        Crie Stories Incríveis <span class="text-primary">Todos os Dias</span>
+                    <!-- TÍTULO ATUALIZADO E TAMANHO AJUSTADO -->
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-text-dark leading-tight">
+                        Tenha + de 10.000 Figurinhas para Stories e <span class="text-primary">obtenha muito mais engajamento!!!</span>
                     </h1>
                     <!-- Botão "Ver Oferta Especial" REMOVIDO -->
                 </div>
                 <!-- Coluna da Imagem (REMOVIDA) -->
+            </div>
+            
+            <!-- Carrosséis movidos para baixo do Título -->
+            <div class="flex flex-col gap-4 max-w-4xl mx-auto mt-12">
+                <!-- Carousel 1 (Scroll Left) -->
+                <div class="carousel-container">
+                    <div class="carousel-track scroll-left">
+                        <div class="carousel-item"><img src="https://i.imgur.com/UDv5nGr.png" alt="Preview 1"></div>
+                        <div class="carousel-item"><img src="https://i.imgur.com/ikEgEhQ.jpeg" alt="Preview 2"></div>
+                        <div class="carousel-item"><img src="https://i.imgur.com/WE9euWt.jpeg" alt="Preview 3"></div>
+                        <!-- Duplicatas -->
+                        <div class="carousel-item"><img src="https://i.imgur.com/UDv5nGr.png" alt="Preview 1"></div>
+                        <div class="carousel-item"><img src="https://i.imgur.com/ikEgEhQ.jpeg" alt="Preview 2"></div>
+                        <div class="carousel-item"><img src="https://i.imgur.com/WE9euWt.jpeg" alt="Preview 3"></div>
+                    </div>
+                </div>
+                <!-- Carousel 2 (Scroll Right) -->
+                <div class="carousel-container">
+                    <div class="carousel-track scroll-right">
+                        <div class="carousel-item"><img src="https://i.imgur.com/nA1hhyX.png" alt="Preview 4"></div>
+                        <div class="carousel-item"><img src="https://i.imgur.com/MrpUJkC.png" alt="Preview 5"></div>
+                        <div class="carousel-item"><img src="https://i.imgur.com/m6RZ6xt.png" alt="Preview 6"></div>
+                        <!-- Duplicatas -->
+                        <div class="carousel-item"><img src="https://i.imgur.com/nA1hhyX.png" alt="Preview 4"></div>
+                        <div class="carousel-item"><img src="https://i.imgur.com/MrpUJkC.png" alt="Preview 5"></div>
+                        <div class="carousel-item"><img src="https://i.imgur.com/m6RZ6xt.png" alt="Preview 6"></div>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -218,31 +247,32 @@
             </div>
         </section>
 
-        <!-- 5. BONUS SECTION -->
-        <section id="bonus" class="bg-primary-light py-12 md:py-16">
+        <!-- 5. BONUS SECTION (Versão Compacta) -->
+        <section id="bonus" class="bg-primary-light py-12 md:py-16"> <!-- Padding vertical reduzido -->
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-3xl md:text-4xl font-bold text-text-dark mb-4">
-                    Compre Hoje e Receba +R$59,97 em Bónus!
+                    Compre Hoje e Receba <span class="line-through text-gray-400">+R$59,97</span> em Bónus!
                 </h2>
-                <p class="text-lg text-text-light max-w-2xl mx-auto mb-10">
+                <p class="text-lg text-text-light max-w-2xl mx-auto mb-10"> <!-- Margem inferior reduzida -->
                     Ao garantir seu acesso hoje, você também recebe 3 packs de bónus incríveis (de graça!):
                 </p>
-                <div class="grid md:grid-cols-3 gap-6 max-w-4xl mx-auto text-left">
-                    <!-- Bónus 1 -->
-                    <div class="bg-white p-4 rounded-lg shadow-lg">
-                        <span class="text-2xl" role="img" aria-label="art palette">🎨</span>
-                        <h3 class="text-lg font-bold text-text-dark mt-2 mb-1">+12.000 Posts Canva</h3>
+                <!-- Layout Padrão: Empilhado no mobile, lado-a-lado (grid-cols-3) no desktop (md:) -->
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto text-left">
+                    <!-- Bónus 1 (Compacto) -->
+                    <div class="bg-white p-4 rounded-lg shadow-lg"> <!-- Padding interno reduzido -->
+                        <span class="text-2xl" role="img" aria-label="art palette">🎨</span> <!-- Ícone menor -->
+                        <h3 class="text-lg font-bold text-text-dark mt-2 mb-1">+12.000 Posts Canva</h3> <!-- Fonte e margens menores -->
                         <p class="text-text-light text-sm mb-2">Artes 100% editáveis para o seu feed.</p>
-                        <span class="font-bold text-base"><span class="line-through text-gray-400">R$29,99</span> <span class="text-primary ml-1">R$0,00</span></span>
+                        <span class="font-bold text-base"><span class="line-through text-gray-400">R$29,99</span> <span class="text-primary ml-1">R$0,00</span></span> <!-- Fonte menor -->
                     </div>
-                    <!-- Bónus 2 -->
+                    <!-- Bónus 2 (Compacto) -->
                     <div class="bg-white p-4 rounded-lg shadow-lg">
                         <span class="text-2xl" role="img" aria-label="juice">🍹</span>
                         <h3 class="text-lg font-bold text-text-dark mt-2 mb-1">Ebook 100 Sucos Detox</h3>
                         <p class="text-text-light text-sm mb-2">Receitas práticas para uma vida mais saudável.</p>
                         <span class="font-bold text-base"><span class="line-through text-gray-400">R$19,99</span> <span class="text-primary ml-1">R$0,00</span></span>
                     </div>
-                    <!-- Bónus 3 -->
+                    <!-- Bónus 3 (Compacto) -->
                     <div class="bg-white p-4 rounded-lg shadow-lg">
                         <span class="text-2xl" role="img" aria-label="envelope">💌</span>
                         <h3 class="text-lg font-bold text-text-dark mt-2 mb-1">Pack Convites Lucrativos</h3>
@@ -253,7 +283,7 @@
             </div>
         </section>
 
-        <!-- NOVA SEÇÃO DE CARROSSÉIS -->
+        <!-- NOVA SEÇÃO DE CARROSSÉIS (Movida para cá) -->
         <section id="preview-carousel" class="py-16 md:py-24">
             <div class="container mx-auto px-6">
                 <h2 class="text-3xl md:text-4xl font-bold text-center text-text-dark mb-12">
@@ -343,7 +373,7 @@
         <section class="bg-primary-light py-16 md:py-24">
             <div class="container mx-auto px-6 text-center">
                 <h2 class="text-3xl md:text-4xl font-bold text-text-dark mb-4">
-                    Tudo isso por apenas 1x de R$19,97
+                    Tudo isso por apenas 1x de <span class="text-primary">R$19,97</span>
                 </h2>
                 <p class="text-lg text-text-light max-w-2xl mx-auto mb-8">
                     Tenha acesso vitalício a todo o pack de figurinhas, bónus e atualizações futuras.
@@ -366,7 +396,7 @@
         </section>
 
         <!-- Imagem de Pagamentos -->
-        <section classD="pb-16 md:pb-24">
+        <section class="pb-16 md:pb-24">
             <div class="container mx-auto px-6 text-center">
                 <img src="https://i.imgur.com/rsAmRe6.png" alt="Formas de Pagamento" class="mx-auto w-full max-w-lg">
             </div>
